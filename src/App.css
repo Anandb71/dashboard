@@ -1,0 +1,299 @@
+.aura-app {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.aura-sidebar {
+  width: 280px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  z-index: 100;
+  border-right: 1px solid var(--aura-border);
+}
+
+.aura-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.aura-logo-icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, var(--aura-accent), #c084fc);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 0 20px var(--aura-accent-glow);
+}
+
+.aura-brand h2 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  background: linear-gradient(to right, #fff, var(--aura-sub));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aura-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.aura-nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: none;
+  background: transparent;
+  color: var(--aura-sub);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+  text-align: left;
+}
+
+.aura-nav-btn:hover {
+  background: rgba(255, 255, 255, 0.03);
+  color: white;
+}
+
+.aura-nav-btn.active {
+  background: rgba(139, 92, 246, 0.1);
+  color: var(--aura-accent);
+  border: 1px solid var(--aura-accent-glow);
+}
+
+.aura-main {
+  flex: 1;
+  padding: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.aura-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aura-header h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.aura-header p {
+  color: var(--aura-sub);
+  font-weight: 500;
+}
+
+.aura-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.aura-stat {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.aura-stat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.aura-stat-val {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.aura-stat-label {
+  color: var(--aura-sub);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.aura-insight-banner {
+  padding: 24px;
+  background: linear-gradient(90deg, rgba(139, 92, 246, 0.1), transparent);
+  border-left: 4px solid var(--aura-accent);
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.aura-insight-icon {
+  color: var(--aura-accent);
+  padding-top: 4px;
+}
+
+.aura-insight-text {
+  flex: 1;
+}
+
+.aura-insight-text h4 {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+  color: var(--aura-accent);
+}
+
+.aura-insight-text p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--aura-text);
+}
+
+.aura-chart-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.aura-chart-card {
+  padding: 32px;
+  min-height: 400px;
+}
+
+.aura-chart-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.aura-chart-header h3 {
+  font-size: 1.1rem;
+}
+
+.aura-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.aura-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 14px;
+  border: 1px solid var(--aura-border);
+}
+
+.aura-list-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.aura-list-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #1e293b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.aura-list-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.aura-list-sub {
+  font-size: 0.75rem;
+  color: var(--aura-sub);
+}
+
+.aura-badge {
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.aura-badge-risk {
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--aura-risk);
+}
+
+.aura-badge-safe {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--aura-safe);
+}
+
+.student-card-grid {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.student-card {
+  min-width: 140px;
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid var(--aura-border);
+  transition: all 0.2s ease;
+}
+
+.student-card.active {
+  border-color: var(--aura-accent);
+  background: rgba(139, 92, 246, 0.05);
+}
+
+@media (max-width: 1200px) {
+  .aura-chart-section {
+    grid-template-columns: 1fr;
+  }
+
+  .aura-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .aura-sidebar {
+    display: none;
+  }
+
+  .aura-main {
+    padding: 20px;
+  }
+
+  .aura-grid {
+    grid-template-columns: 1fr;
+  }
+}

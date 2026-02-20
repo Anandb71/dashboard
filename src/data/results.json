@@ -1,0 +1,72 @@
+[
+  {
+    "id": "S001",
+    "name": "Arjun Sharma",
+    "section": "A",
+    "attendance": 92,
+    "subjects": [
+      { "name": "Advanced Mathematics", "internal": 38, "external": 55, "total": 93, "difficulty": "Hard" },
+      { "name": "Data Structures", "internal": 35, "external": 58, "total": 93, "difficulty": "Medium" },
+      { "name": "Operating Systems", "internal": 32, "external": 45, "total": 77, "difficulty": "Hard" },
+      { "name": "Theory of Computation", "internal": 30, "external": 42, "total": 72, "difficulty": "Very Hard" }
+    ],
+    "archetype": "Consistent Achiever",
+    "insights": "Strong in logic, but needs more focus on theoretical concepts like TOC."
+  },
+  {
+    "id": "S002",
+    "name": "Priya Patel",
+    "section": "A",
+    "attendance": 85,
+    "subjects": [
+      { "name": "Advanced Mathematics", "internal": 25, "external": 35, "total": 60, "difficulty": "Hard" },
+      { "name": "Data Structures", "internal": 40, "external": 59, "total": 99, "difficulty": "Medium" },
+      { "name": "Operating Systems", "internal": 38, "external": 52, "total": 90, "difficulty": "Hard" },
+      { "name": "Theory of Computation", "internal": 35, "external": 48, "total": 83, "difficulty": "Very Hard" }
+    ],
+    "archetype": "Fast Improver",
+    "insights": "Exceptional coding skills, math internals were low but showing upward trend."
+  },
+  {
+    "id": "S003",
+    "name": "Rohan Das",
+    "section": "B",
+    "attendance": 70,
+    "subjects": [
+      { "name": "Advanced Mathematics", "internal": 15, "external": 25, "total": 40, "difficulty": "Hard" },
+      { "name": "Data Structures", "internal": 20, "external": 32, "total": 52, "difficulty": "Medium" },
+      { "name": "Operating Systems", "internal": 18, "external": 28, "total": 46, "difficulty": "Hard" },
+      { "name": "Theory of Computation", "internal": 12, "external": 20, "total": 32, "difficulty": "Very Hard" }
+    ],
+    "archetype": "Needs Support",
+    "insights": "Low attendance correlates with low internal scores. Requires immediate intervention."
+  },
+  {
+    "id": "S004",
+    "name": "Ananya Iyer",
+    "section": "B",
+    "attendance": 96,
+    "subjects": [
+      { "name": "Advanced Mathematics", "internal": 40, "external": 60, "total": 100, "difficulty": "Hard" },
+      { "name": "Data Structures", "internal": 39, "external": 58, "total": 97, "difficulty": "Medium" },
+      { "name": "Operating Systems", "internal": 37, "external": 55, "total": 92, "difficulty": "Hard" },
+      { "name": "Theory of Computation", "internal": 38, "external": 57, "total": 95, "difficulty": "Very Hard" }
+    ],
+    "archetype": "Consistent Achiever",
+    "insights": "Top performer across all subjects. Excellent theoretical and practical knowledge."
+  },
+  {
+    "id": "S005",
+    "name": "Vikram Singh",
+    "section": "A",
+    "attendance": 88,
+    "subjects": [
+      { "name": "Advanced Mathematics", "internal": 30, "external": 40, "total": 70, "difficulty": "Hard" },
+      { "name": "Data Structures", "internal": 32, "external": 45, "total": 77, "difficulty": "Medium" },
+      { "name": "Operating Systems", "internal": 25, "external": 35, "total": 60, "difficulty": "Hard" },
+      { "name": "Theory of Computation", "internal": 20, "external": 30, "total": 50, "difficulty": "Very Hard" }
+    ],
+    "archetype": "The Maverick",
+    "insights": "Stronger in practical subjects compared to abstract theoretical ones."
+  }
+]
